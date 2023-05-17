@@ -1,0 +1,10 @@
+git pull 전체 내려받기
+git pull origin master
+
+
+git remote -v 연결된 저장소 확인
+
+
+git add 폴더or 파일명
+git commit -m ""
+git push origin master
