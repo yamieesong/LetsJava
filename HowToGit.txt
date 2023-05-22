@@ -8,3 +8,21 @@ git remote -v 연결된 저장소 확인
 git add 폴더or 파일명
 git commit -m ""
 git push origin master
+
+
+cmd창에서 java 실행 오류
+
+1.오류: 기본 클래스 fineName을(를) 찾거나 로드할 수 없습니다.
+원인 : ClassPath가 정상적으로 잡혀있지 않아 발생될 수 있는 오류
+해결방법1 : ClassPath를 지정하여 자바 실행
+         $ java -classpath . fileName
+해결방법2 : 환경변수에 등록된 ClassPath 변경
+         (변경 전) %JAVA_HOME%\lib
+         (변경 후) %JAVA_HOME%\lib\;
+
+
+encoding 변경하여 컴파일하기
+방법 : $javac -encoding utf-8 fileName.java
+응용(현재 디렉토리에서부터 모든 java 컴파일) : $javac -encoding utf-8 -d. *.java
+                                    -d. 현재 디렉토리부터
+                                    *.java 모든 java 파일
