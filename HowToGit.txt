@@ -10,6 +10,18 @@ git commit -m ""
 git push origin master
 
 
+특정 폴더만 pull 하려면
+git init
+git config core.sparseCheckout true
+git remote add -f origin GitURL
+예) git remote add -f origin https://github.com/yamieesong/LetsJava.git
+echo "원하는 파일 및 폴더 경로" >> .git/info/sparse-checkout
+예) echo "Day10" >> .git/info/sparse-checkout
+git pull origin master
+
+
+
+
 cmd창에서 java 실행 오류
 
 1.오류: 기본 클래스 fineName을(를) 찾거나 로드할 수 없습니다.
