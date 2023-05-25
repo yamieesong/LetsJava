@@ -1,3 +1,6 @@
+쓰앵님 git
+https://github.com/lodosswkor/java-lec-202304
+
 git pull 전체 내려받기
 git pull origin master
 
