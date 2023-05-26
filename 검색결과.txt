@@ -1,2 +1,7 @@
 [JAVA] Eclipse와 Oracle DB 연결(2) - XML파일에서 DB 정보 가져오기
 https://hyokye0ng.tistory.com/3
+
+
+이클립스 설정
+더블클릭 선택 시 하이라이트 옵션 키기
+menu > window > preference > Java > Editor > mark occurrences 에서 모두 체크가 되어있는지 확인
