@@ -5,3 +5,14 @@ https://hyokye0ng.tistory.com/3
 이클립스 설정
 더블클릭 선택 시 하이라이트 옵션 키기
 menu > window > preference > Java > Editor > mark occurrences 에서 모두 체크가 되어있는지 확인
+
+
+자바 출력 서식
+printf에서만 가능. println에서는 불가
+1) %d: 정수
+2) %f: 실수
+3) %c: 문자
+4) %s: 문자열 
+
+System.out.printf("국어점수: %d", 10)
+// %d 안에 10을 집어넣는다.
