@@ -16,3 +16,8 @@ printf에서만 가능. println에서는 불가
 
 System.out.printf("국어점수: %d", 10)
 // %d 안에 10을 집어넣는다.
+
+
+클래스 파일들 확인하기
+  클립보드에 복사한 상태에서 Ctrl+Shift+V 누르기
+  예) Object.class를 보고싶을 때 Object를 복사한 상태에서 Ctrl+Shift+V 누르면 해당 클래스가 나와서 내부 메서드들 확인 가능!
