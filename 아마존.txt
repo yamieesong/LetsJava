@@ -1,1 +1,2 @@
-aws.amazon.com/ko
+https://aws.amazon.com/ko
+https://heidiisql.com
