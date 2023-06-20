@@ -1,0 +1,7 @@
+manager
+manager.entity		데이터오브젝트
+manager.repository	쿼리(질의)
+manager.service		repository를 활용한 서비스
+manager.connect		DB커넥션영역
+
+우클릭>Source>Generate Constructor using Fields
