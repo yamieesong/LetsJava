@@ -21,3 +21,24 @@ System.out.printf("국어점수: %d", 10)
 클래스 파일들 확인하기
   클립보드에 복사한 상태에서 Ctrl+Shift+V 누르기
   예) Object.class를 보고싶을 때 Object를 복사한 상태에서 Ctrl+Shift+V 누르면 해당 클래스가 나와서 내부 메서드들 확인 가능!
+
+
+vscode
+가로줄크기
+word wrap 검색
+Editor:Word Wrap(Also modified elsewhere)
+wordWrapColumn으로 선택 (기본 off)
+
+Editor:Word Wrap Column
+예) 300 <-이런식으로 입력
+
+
+세로 선 만들기
+ruler 검색
+
+Editor:Rulers
+Edit in settings.json 클릭
+"editor.rulers":[
+ 간격 입력
+]
+예시) 300이렇게 하나만 입력하면 한 줄 생기고 여러줄 생기게 하려면 100, 200, 300 이런식으로 입력하고 저장
