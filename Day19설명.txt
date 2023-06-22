@@ -1,0 +1,9 @@
+mariadb-java-client-3.1.4.jar를 프로젝트 Build path에 추가
+>Java Build Path>Libraries>Add External JARs>mariadb-java-client-3.1.4.jar클릭>Apply and Close
+
+
+connect		ㄷㅣ비연결
+controllere	화면출력
+entity		데이터 통신을 위한 객체
+repository	데이터를 실제로 다루는
+service		repository를 가지고 비즈니스 로직을 구현하는 부분
